@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+html, body {
+    margin: 0; 
+    padding: 0;
+    background: #141414;
+}
+
+
+
+canvas {
+    display: block;
+}
+
+
+.logo {
+    position: fixed;
+    width: 12rem;
+    top: 2rem;
+    left: 1.2rem;
+    z-index: 10;
+}
+
+.wSlider,
+.hSlider,
+.sclSlider,
+.extrudeSlider,
+.velSlider,
+.rotateButton {
+    position: fixed;
+    display: none;
+    right: 1.7rem;
+    width: 40%;
+}
+
+.hSlider {
+    top: 6rem;
+}
+
+.wSlider {
+    top: 8rem;
+}
+
+.sclSlider {
+    top: 10rem;
+}
+
+.extrudeSlider {
+    top: 12rem;
+}
+
+.velSlider {
+    top: 14rem;
+}
+
+.rotateButton {
+    top: 16rem;
+    background: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: .5rem 1rem;
+
+}
+
+.rotateButton:hover {
+    background: rgba(72, 72, 72, 0.934);
+  }
+
+      
+.toggle-config {
+    background: none;
+    color: white;
+    user-select: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: fixed;
+    right: 1.7rem;
+    top: 2.3rem;
+    filter: invert();
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+  }
+
+
+.controls {
+  position: fixed;
+  top: 6.1rem;
+  right: calc(40% + 2.5rem);
+  color: white;
+  list-style: none;
+  font-size: .6rem;
+  display: none;
+  text-align: end;
+  z-index: 999;
+}
+
+.controls li {
+  margin-bottom: 1.32rem;
+}
+
