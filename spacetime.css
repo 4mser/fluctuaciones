@@ -21,8 +21,8 @@ canvas {
 .logo {
     position: fixed;
     width: 12rem;
-    top: 2rem;
-    left: 1.2rem;
+    top: 1.3rem;
+    left: .8rem;
     z-index: 10;
 }
 
@@ -79,8 +79,8 @@ canvas {
     width: 1.5rem;
     height: 1.5rem;
     position: fixed;
-    right: 1.7rem;
-    top: 2.3rem;
+    right: 1.4rem;
+    top: 1.8rem;
     filter: invert();
     border: none;
     background-color: transparent;
